@@ -1,0 +1,45 @@
+ #fir{
+	background:url(../img/sale/1.1.png) 50% 0 no-repeat fixed;
+       background-size: contain;
+	color: white;
+	height: 1030px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#second{
+	background: url(../img/sale/2.png) 50% 0 no-repeat fixed;background-size: contain;
+	color: white;
+	height: 1030px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+
+#third{
+	background: url(../img/sale/3.png) 50% 5% no-repeat fixed;background-size: contain;
+	color: white;
+	height: 1030px;	
+}
+    @media(max-width:1024px){
+        #fir,#second,#third{height:774px;background-size: contain;}
+    }
+     @media(max-width:800px){
+        #fir,#second,#third{height:606px;background-size: cover;}
+    }
+    @media(max-width:768px){
+        #fir,#second,#third{height:1000px;}
+    }
+@media(max-width:650px){
+        #fir,#second,#third{height:900px;}
+    }
+@media(max-width:414px){
+        #fir,#second,#third{height:740px;}
+    }
+@media(max-width:375px){
+        #fir,#second,#third{height:670px;}
+    }
+@media(max-width:320px){
+        #fir,#second,#third{height:570px;}
+    }

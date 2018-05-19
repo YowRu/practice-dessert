@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+#wrapper {max-width:900px;width:90%;margin:0 auto;background:url(../img/bg/br.png);}
+#main article a{background:url(../img/bg/crisp_orange.png);display: inline-block;width: 100%;border-bottom:3px solid #fff;}
+#main article a:nth-of-type(4){border-bottom: 0;}
+#main article a:hover{background:url(../img/bg/br.png);}
+#main article a:nth-of-type(1) .image{height:200px;background:url(../img/commodity/sweet.png) no-repeat 60% center;background-size:contain;}
+ #main article a:nth-of-type(1):hover .image,
+#main article a:nth-of-type(1):active .image{height:200px;background:url(../img/commodity/sweet_h.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(2) .image{height:200px;background:url(../img/commodity/salty.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(2):hover .image,
+#main article a:nth-of-type(2):active .image{height:200px;background:url(../img/commodity/salty_h.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(3) .image{height:200px;background:url(../img/commodity/other.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(3):hover .image,
+#main article a:nth-of-type(3):active .image{height:200px;background:url(../img/commodity/other_h.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(4) .image{height:200px;background:url(../img/commodity/drink.png) no-repeat 60% center;background-size:contain;}
+ #main article a:nth-of-type(4):hover .image,
+#main article a:nth-of-type(4):active .image{height:200px;background:url(../img/commodity/drink_h.png) no-repeat 60% center;background-size:contain;}
+#main section{width:100%;line-height:350px;display:none;}
+#main section a{width:42%;height:auto;margin:3px 1px;display:inline-block;vertical-align:middle;background-image:url(../img/bg/brickwall.png);position:relative;}
+#main section a p{position:absolute;left:0;top:5%;width:100%;height:300px;color:#fff;font-size:4rem;font-weight:bolder;font-family:'Lobster', cursive;opacity:0;transition:all .5s;}
+#main section a img{height:300px;background-size:contain;display:inline-block;vertical-align:middle;}
+#main section a:nth-of-type(4) img{height:180px;}
+#main section a:hover,#main section a:active{background-image:url(../img/bg/brickwallBlack.png);}
+#main section a:hover p{opacity:1;}
+    
+    @media(max-width:690px){
+     /*   #main article{display: none;}
+        #main section{display: inline-block;text-align:center;} */
+        #wrapper {padding:4px 0;width:100%;max-width:900px;}
+    }
+    @media(max-width:696px){
+        #main section{line-height:400px;}
+        #main section a p,
+        #main section a img{height:400px;}
+        #main section a{width:80%;height:auto;}
+        #main section a:nth-of-type(4) img{height:300px;}
+        #main section{line-height:360px;}   
+    }
+    @media(max-width:555px){
+        #main section a{width:90%;}
+    }
+@media(max-width:500px){
+    #main article a:nth-of-type(1) .image{height:150px;background:url(../img/commodity/sweet.png) no-repeat 60% center;background-size:contain;}
+ #main article a:nth-of-type(1):hover .image,
+#main article a:nth-of-type(1):active .image{height:150px;background:url(../img/commodity/sweet_h.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(2) .image{height:150px;background:url(../img/commodity/salty.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(2):hover .image,
+#main article a:nth-of-type(2):active .image{height:150px;background:url(../img/commodity/salty_h.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(3) .image{height:150px;background:url(../img/commodity/other.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(3):hover .image,
+#main article a:nth-of-type(3):active .image{height:150px;background:url(../img/commodity/other_h.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(4) .image{height:150px;background:url(../img/commodity/drink.png) no-repeat 60% center;background-size:contain;}
+ #main article a:nth-of-type(4):hover .image,
+#main article a:nth-of-type(4):active .image{height:150px;background:url(../img/commodity/drink_h.png) no-repeat 60% center;background-size:contain;}
+
+}
+     @media(max-width:414px){
+         #main section a{width:98%;}
+    }
+@media(max-width:350px){
+    #main article a:nth-of-type(1) .image{height:120px;background:url(../img/commodity/sweet.png) no-repeat 60% center;background-size:contain;}
+ #main article a:nth-of-type(1):hover .image,
+#main article a:nth-of-type(1):active .image{height:120px;background:url(../img/commodity/sweet_h.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(2) .image{height:120px;background:url(../img/commodity/salty.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(2):hover .image,
+#main article a:nth-of-type(2):active .image{height:120px;background:url(../img/commodity/salty_h.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(3) .image{height:120px;background:url(../img/commodity/other.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(3):hover .image,
+#main article a:nth-of-type(3):active .image{height:120px;background:url(../img/commodity/other_h.png) no-repeat 60% center;background-size:contain;}
+#main article a:nth-of-type(4) .image{height:120px;background:url(../img/commodity/drink.png) no-repeat 60% center;background-size:contain;}
+ #main article a:nth-of-type(4):hover .image,
+#main article a:nth-of-type(4):active .image{height:120px;background:url(../img/commodity/drink_h.png) no-repeat 60% center;background-size:contain;}
+
+}

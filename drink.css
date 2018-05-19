@@ -1,0 +1,62 @@
+.wp_pc{background:url(../img/bg/br.png);padding:40px 20px;display:flex;justify-content:center;flex-wrap: wrap;}  
+.wp_pc div{overflow:hidden;width:30%;margin:1% 2%;background-color:rgba(255, 255, 255, 0.64);display: flex;
+justify-content: center;align-items: center;}
+.wp_pc div img{margin-right:20px;float:left;width: 40%;}
+.wp_pc div ul{float:none;display:block;width:50%;min-height:154px;padding:10px 0;box-sizing:border-box;}
+.wp_pc div ul:before{display:block;width:80%;height: 1rem;content:'食材';border-bottom:2px solid #555;color:#555;margin:5px;padding-bottom: 2px;}
+.wp_pc div ul li{font-size:1rem;width:50%;margin:5px;color:#555;}
+
+#wrapper {background:url(../img/bg/br.png);justify-content:center;flex-wrap: wrap;padding:40px 20px;display: none;}
+#wrapper a{width:236px;margin:0.5%;text-align:center;} 
+#wrapper a img{width:80%;}  
+#main>a {display: inline-block;background:url(../img/bg/br.png);width: 100%;padding:10px 0 60px;text-align:center;color: #fff;font-size:1.4rem;}
+@media(max-width:1280px){
+    .wp_pc div ul{width:50%;}
+}
+@media(max-width:1140px){
+    .wp_pc div{width:35%;}
+}
+@media(max-width:1000px){
+    .wp_pc div{width:40%;margin:1% 2%;}
+}
+@media(max-width:800px){
+    .wp_pc div{width:45%;margin:2% auto;}
+}
+@media(max-width:700px){
+    .wp_pc{padding:20px 10px;}
+    .wp_pc div{width:48%;margin:2% 1%;}
+}
+@media(max-width:650px){
+    .wp_pc div img{margin-right:10px;}
+}
+@media(max-width:638px){
+   .wp_pc div{width:65%;}
+}
+@media(max-width:555px){
+    #wrapper a{width:65%;margin:2% auto;}
+}
+@media(max-width:480px){
+    .wp_pc div{width:75%}
+}
+@media(max-width:414px){
+    .wp_pc div{width:85%}
+}
+@media(max-width:350px){
+    .wp_pc div{width:98%}
+    .wp_pc div ul{width:55%;}
+}
+/*
+@media(max-width:515px){
+    .wp_pc{display: none;}
+    #wrapper{display:flex;}
+}
+@media(max-width:500px){
+    #wrapper a{width:75%;}
+}
+@media(max-width:414px){
+    #wrapper a{width:90%;}
+}
+@media(max-width:320px){
+    #wrapper a{width:98%;}
+}
+*/
