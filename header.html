@@ -1,0 +1,35 @@
+     <div class="wp">
+       <div id="logo"> FUNTOWER </div>
+       <nav id="navwrapper">
+               <nav></nav>
+               <ul>
+                    <li><a href="index.html">關於我們</a></li>
+                    <li><a href="commodity.html">商品介紹</a></li>
+                    <li><a href="sale1.html">活動訊息</a></li>
+                    <li><a href="shop.html">門市據點</a></li>
+                    <li><a href="contact.html">聯繫我們</a></li>
+                </ul> 
+        </nav>
+        <ul>
+            <li><a href="index.html">關於我們</a></li>
+            <li><a href="commodity.html">商品介紹</a></li>
+            <li><a href="sale1.html">活動訊息</a></li>
+            <li><a href="shop.html">門市據點</a></li>
+            <li><a href="contact.html">聯繫我們</a></li>
+        </ul>
+        <div class="bg"></div> 
+    </div>  
+    <script>
+    $('#navwrapper>nav').click(function(){
+        $('#navwrapper').siblings('ul').fadeToggle();
+        $('header .bg').fadeToggle();
+    });
+    var $H=$(window).height();
+    var $W=$(window).width();
+    $('header .bg').height($H+70);
+    
+$('header .bg').click(function(){
+        $('#navwrapper').siblings('ul').fadeToggle();
+        $('header .bg').hide();
+    });
+</script>

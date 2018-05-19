@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/loadFile.js"></script>
+    <link href="css/layout1.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+    <title>FUN TOWER日式可麗餅 | 聯絡我們</title>
+</head>
+<body>
+    <header><!--header.html--></header>
+    <div id="main"> 
+            <div class="banner1"></div>
+            <div class="wp">
+                <h1>聯絡我們</h1>
+                <form name="contactForm" id="contactForm" method="post" action="contact_msg.php">
+                <div class="detail">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</div>
+                <input type="text" name="msg_name" id="msg_name" maxlength="50" placeholder="請輸入真實姓名" required><br>    
+                <div class="detail">男</div>
+                <input type="radio" name="msg_sex" id="msg_sex1" value="男" required>
+                <div class="detail">女</div>
+                <input type="radio" name="msg_sex" id="msg_sex2" value="女" required><br> 
+                <div class="detail">電子信箱</div>    
+                <input type="email" name="msg_mail" id="msg_mail" placeholder="請輸入EMail"><br>       
+                <div class="detail">詢問類別</div>
+                  <select name="msg_question" id="msg_question">
+                      <option value="">請選擇需要詢問的項目</option>
+                      <option value="產品建議">產品建議</option>
+                      <option value="加盟詢問">加盟詢問</option>
+                      <option value="其他">其他</option>
+                  </select><br> 
+                <div class="detail">留言內容</div>
+                <textarea name="msg_content" id="msg_content" placeholder="寫點什麼吧" required></textarea><br>
+                <input type="hidden" name="MM_msg" value="contactForm">
+                <div class="b">
+                    <input type="submit" id="submitBtn" value="確認送出">
+                    <input type="reset" id="resetBtn" value="重設">
+                </div>
+             </form> 
+             </div> 
+    </div>
+    <footer><!--footer.html--> </footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<aside class="commodity">
+        <nav>
+            <a href="commoditySweet.html">SWEET</a>
+            <a href="commoditySalty.html">SALTY</a>
+            <a href="commodityDrink.html">DRINK</a>
+            <a href="commodityOther.html">OTHER</a>
+        </nav>
+</aside>
+  <script>
+      var pageNo = $('.pageNo').text();
+      $('.commodity nav a').eq(pageNo).addClass('current');
+  </script>
+</body>
+</html>
