@@ -1,0 +1,32 @@
+/*------------------------------------------- main & aside---------------------------*/
+#main{max-width:1280px;width :100%;min-height:500px;margin:70px auto 40px;}
+.banner1{background:url(../img/index.png) no-repeat center;max-width:1280px;height:570px;background-size: cover;}
+.row1{background:url(../img/bg/br.png);padding: 40px 20px 100px;}
+.section{width:75%;margin: 0 auto;}
+.section h1{color:#fff;margin:-20px auto 40px;text-align:center;opacity:0;}
+.section p{height:110px;margin-top: 70px;color:#fff;padding:0px 25px 0px 30px;box-sizing: border-box;position: relative;border:2px solid #fff;}
+.section p:before{width:95%;height:110%;content:'';position:absolute;top:-5%;left:2.5%;background:url(../img/bg/br.png) left center; }
+.section p span{display:inline-block;width:90%;left:6%;line-height:4rem;font-size:1.6rem;color:#fff;position:relative;top:-40px;z-index: 1;}
+.row2{background:url(../img/bg/br.png);padding:40px 20px 80px;}
+.row2 h2,.row2 p{color:#fff;text-align:center;}
+.row2 h2{font-size:2rem;background-color: #fab8b8;width: 35%;margin: 0 auto;padding: 5px;position: relative;}
+.row2 h2:before{content:'• ';color:#fff;font-size:1.5rem;position: absolute;top:23%;left:18px;}
+.row2 h2:after{content:' •';color:#fff;font-size:1.5rem;position: absolute;top:23%;right:18px;}
+.row2 p{font-size:1.7rem;margin: 5px auto;position: relative;width: 20%;margin-top:50px;}
+.row2 p:before{content:'';border:1px solid #fff;position:absolute;left:-260px;top:0.8rem;width:270px;}
+.row2 p:after{content:'';border:1px solid #fff;position: absolute;right:-260px;top:0.8rem;width:270px;}
+.row2 .image{display: flex;justify-content:center;margin:20px auto 30px;}
+.row2 .image div:nth-of-type(1){background:url(../img/index02.jpg) no-repeat center;width:400px;height:320px;background-size:cover;
+position: relative;border:10px solid #fff;margin: 20px 30px;}
+.row2 .image div:nth-of-type(1):before{content:'';width:400px;height:320px;position: absolute;left:0;top:0;
+background-color:#766f6f;opacity:0.1;}
+.row2 .image div:nth-of-type(2){background:url(../img/index3.jpg) no-repeat center;width:400px;height:320px;background-size:cover;position: relative;border:10px solid #fff;margin: 20px 30px;}
+/*Aside*/
+.commodity{width:18%;height:500px;position:relative;display:inline-block;}
+.commodity nav{width:auto;margin-top:70px;position:absolute;left:10%;}
+.commodity nav a{display:inline-block;width:150px;text-align:center;text-decoration: none;font-size:18px;line-height:80px;margin:2px 0;border:2px dotted #fff;box-sizing:border-box; color:#fff;transition:all .6s;}
+.commodity nav a:hover{background-color:#ffbbca;color:#fff;}
+.commodity nav a.current{color:#fda9a9;background-color:rgba(255, 255, 255, 0.89);border:2px dotted #fda9a9;}
+@media(max-width:1280px){
+   .row1,.row2{background:none;}
+}

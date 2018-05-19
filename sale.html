@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/loadFile.js"></script>
+    <link href="css/layout1.css" rel="stylesheet" type="text/css">
+    <link href="css/sale.css" rel="stylesheet" type="text/css">
+    <title>FUN TOWER-活動訊息</title>
+</head>
+<style>
+#fir{height:1030px;margin:0 auto;padding:0;color:#78a3d4;position:relative;overflow: hidden ;}
+#fir:after{content:'';display:block;background:url(img/bg/5.png);width:100%;height:1030px;z-index:-1;}
+#fir .left{position: absolute;top:30%;left:15%;text-align:center;font-size:2rem;line-height:3.5rem; font-family:'cwTeXYen','微軟正黑體';padding:30px 50px;background-color: rgba(255, 255, 255, 0.76);border-radius: 15px;z-index:1;}
+#fir .image{background:url(img/commodity/drink/1.png) center top no-repeat;width:100%;height:700px;position: absolute; top:10%;right:-30%;background-size:contain;z-index: 1;}
+#second{display:flex;color:#30b481;height: 1030px;margin: 0 auto;position: relative;overflow: hidden ;}
+#second:after{content:'';display:block;background:url(img/bg/3.jpg) fixed;width:100%;height:1030px;z-index:-1;opacity:0.8;}
+#second .image{position:absolute;top:0;left:-30%;background: url(img/commodity/drink/2.png) center no-repeat;width:100%;height:1030px;z-index:1;}
+#second .right{position: absolute;top:30%;right:15%;text-align:center;font-size:2rem;line-height:3.5rem; font-family:'cwTeXYen','微軟正黑體';padding:30px 50px;background-color: rgba(255, 255, 255, 0.56);border-radius: 15px;z-index:1;} 
+#third{display:flex;color:#f56d8a;height: 1030px;margin: 0 auto;position: relative;overflow: hidden ;}
+#third:after{content:'';display:block;background:url(img/bg/2.jpg) fixed;width:100%;height:1030px;opacity:0.4;z-index:-1;}
+#third .image{position:absolute;top:0;right:-30%;background: url(img/commodity/drink/3.png) center no-repeat;width:100%;height:1030px;z-index:1;}
+#third .left{position: absolute;top:30%;left:15%;text-align:center;font-size:2rem;line-height:3.5rem;font-family:'cwTeXYen','微軟正黑體';padding:30px 50px;background-color:rgba(255, 255, 255, 0.56);border-radius: 15px;z-index:1;} 
+    @media(max-width:1200px){
+        #fir,#fir:after,#second,#second:after,#third,#third:after{height:768px;}
+        #fir .image,#second .image,#third .image{height:500px;}
+        #fir .left,#second .right,#third .left{padding:10px 30px;font-size:1.5rem;}
+        #fir .left,#third .left{left:20%;}
+        #second .right{right:20%;}
+    }
+</style>
+<body>
+    <header><!--header.html--></header>
+    <div id="main">               
+            <div id="fir">
+               <div class="left">
+                 <p>藍天、白雲、大海</p>
+                 <p>這就是記憶中夏天的味道</p>
+                 <p>柑橘配上青檸的酸甜</p>
+                 <p>猶如徜徉在湛藍的海洋</p>
+               </div>
+               <div class="image"></div>
+            </div> <!--#intro-->
+            <div id="second">
+               <div class="image"></div>
+               <div class="right">
+                   <p>奇異果微甜的滋味</p>
+                   <p>搭配清香檸檬</p>
+                   <p>彷彿隨桃樂絲一同進入童話</p>
+                   <p>感受那奇幻的旅程</p>
+               </div>
+            </div> <!--#second-->
+            <div id="third">
+                <div class="left">
+                 <p>蜜桃的香甜</p>
+                 <p>伴隨淡雅玫瑰</p>
+                 <p>微風裡有著甜美的氣息</p>
+                 <p>如同你我契合的默契</p>
+               </div>
+               <div class="image"></div>
+            </div> <!--#third-->
+    </div>
+    <footer><!--footer.html--> </footer>
+    
+   
+</body>
+</html>

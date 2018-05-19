@@ -1,0 +1,21 @@
+#wrapper {position:relative;background-image: url(../img/bg/crisp_orange.png);text-align: center;}
+#wrapper img.all{max-width:1080px;width:100%;}
+#wrapper .show{display: none;}
+@media(max-width:1022px){
+    #wrapper img.all{display: none;}
+    #wrapper .show{display:flex;align-items:flex-start;justify-content: center;}
+    #wrapper .show img{width:50%;}
+    #wrapper .show img:nth-of-type(2){width:48%;margin-top:50px;margin-right:2%;}
+}
+@media(max-width:700px){
+    #wrapper .show{flex-direction:column;align-items: center;}
+    #wrapper .show img:nth-of-type(1){margin-top:30px;}
+    #wrapper .show img:nth-of-type(2){width:80%;padding-bottom: 100px;}
+}
+@media(max-width:600px){
+    #wrapper .show img:nth-of-type(1){margin-top: 10px;}
+    #wrapper .show img:nth-of-type(2){width:90%;margin-top:10px;}
+}
+@media(max-width:500px){
+    #wrapper .show img:nth-of-type(2){width:95%;}
+}

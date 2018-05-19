@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Fun Tower日式可麗餅</title>
+    <link rel="stylesheet" href="foundation.min.css" type="text/css">
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" type="text/css">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="jquery-1.8.3.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <script src="foundation.min.js"></script>
+    <script src="modernizr.js"></script>
+</head>
+ <style>
+     @import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+      /*font-family:'cwTeXYen', sans-serif;圓體*/
+     body{font-family:'cwTeXYen', sans-serif;width:100%;}
+     *{text-shadow:none;}
+     /*==================================header============================*/
+     .ui-header .ui-title, .ui-footer .ui-title{margin: 0;}
+     .ui-header .ui-title{height:auto;background-image: url(../img/bg/brickwall.png);}
+     h1{position: relative;text-align:center;width:100%;}
+     h1 img:nth-child(1){height:auto;width:15%;background-size:contain;position: relative;vertical-align: middle;margin-right:5%;}
+     h1 img:nth-child(2){height:auto;width:60%;background-size: contain;position: relative;vertical-align: middle;}
+     /*==================================== nav ==========================*/     
+      .ui-header .ui-navbar .ui-btn, .ui-footer .ui-navbar .ui-btn
+     {color:#fff;background-color: rgba(80, 63, 62, 0.8);text-shadow:none;
+      margin-right:0;}
+     /*================================= main ==========================*/
+     .ui-content{text-align: center;vertical-align: middle;padding:10px;background-image: url(../img/bg/crisp_paper_pink.png);
+                 padding-bottom:50px;}
+     .ui-content .fa{font-size:24px;margin-right:10px;}
+     #page1 .ui-content p{font-weight:bold;color:#fff;font-size:28px; letter-spacing:0.3em;margin:5px 0;}
+     .ui-content img{height:90px;width:auto;background-size: contain;margin:5px;}
+     /*==================================page2==========================*/
+     .ui-collapsible-heading-toggle .ui-btn .ui-btn-icon-left .ui-btn-a .ui-mini .ui-icon-minus{font-size: 20px;color: #fff;}
+     #page2 .ui-content p{font-size:13px;color:#F497AC;}
+     #page2 .ui-content p span{font-size:16px;}
+     #page2 .ui-collapsible-heading{font-size: 20px;color: #fff;}
+     /*======page3========*/
+     .ui-content #map-page h1{font-size:40px;color:#fff;}
+    /*================================= footer ==========================*/
+     .ui-footer .ui-title{height:auto; font-size:12px;color:#f497ac;}
+     .ui-footer .ui-title span{font-size:10px;}
+    
+</style>
+
+<body>
+    <div data-role="page" data-theme="a" id="page1">
+      <div data-role="header">
+       <h1>
+           <img src="../img/logo/logo_img.png">
+           <img src="../img/logo/logo_pink.png">
+       </h1>
+        <div data-role="navbar">
+            <ul>
+              <li><a href="#page1" data-transition="slide" data-direction="reverse">商品選擇</a></li>
+              <li><a href="#page2" >活動資訊</a></li>
+              <li><a href="#page3" data-transition="slide">門市據點</a></li>
+              <li><a href="#page4" data-transition="slide">聯絡我們</a></li>
+            </ul>
+        </div>
+    </div><!--header end-->
+      <div data-role="main" class="ui-content">      <!--main page1-->
+        <p><i class="fa fa-shopping-bag" aria-hidden="true"></i>SWEET</p>   
+           <a href="javascript:;" class="th">
+              <img src="../img/commodity/sweet/sweet01.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet02.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet03.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet04.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet05.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet06.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet07.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet08.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet09.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet10.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet11.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet12.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet13.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet14.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet15.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet16.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet17.jpg" alt="">
+              <img src="../img/commodity/sweet/sweet18.jpg" alt="">  
+          </a>                 <!--捲軸end-->       
+      </div><!--main page1 end-->
+      <div data-role="footer">
+        <h1>COPYRIGHT© 2016 FUN TOWER All RIGHTS RESERVED<br>
+        <span>(此為練習網站，圖片為fun tower及網路搜尋,如有侵犯請告知)</span></h1>
+      </div><!--footer end--> 
+    </div><!--page1 end-->
+ <!--=======================Page2 start=====================-->
+    <div data-role="page" data-theme="a" id="page2">
+      <div data-role="header">
+           <h1>
+               <img src="../img/logo/logo_img.png">
+               <img src="../img/logo/logo_pink.png">
+           </h1>
+            <div data-role="navbar">
+                <ul>
+                  <li><a href="#page1" data-transition="slide" data-direction="reverse">商品選擇</a></li>
+                  <li><a href="#page2" >活動資訊</a></li>
+                  <li><a href="#page3" data-transition="slide">門市據點</a></li>
+                  <li><a href="#page4" data-transition="slide">聯絡我們</a></li>
+                </ul>
+            </div>
+       </div> <!--header end-->
+      <div data-role="main" class="ui-content">
+        <div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-mini="true">
+            <div data-role="collapsible">
+                <h3>台北師大</h3>
+                <img src="../img/sale/sale01_480.jpg" style="width:100%;height:auto;">
+                <p><span>🎉🎉[歡樂度週末]🎉🎉</span><br>累了一周,假日就該享受這不甜不膩的好滋味～撫慰身心...放輕鬆😘</p>
+            </div>
+            <div data-role="collapsible">
+                <h3>嘉義東區</h3>
+                <img src="../img/sale/sale03_480.jpg" style="width:100%;height:auto;">
+               <p><span>日系甜點</span><br>瑞士莫凡彼冰淇淋,搭配法國鮮奶油不甜不膩～草莓🍓系可麗餅,甜蜜好滋味,讓你整天好心情</p>
+            </div>
+            <div data-role="collapsible">
+                <h3>台南國華</h3>
+                <img src="../img/sale/sale05_480.jpg" style="width:100%;height:auto;">
+               <p><span>天氣太熱不想出門？</span><br>只要訂購八隻以上（限三公里內）就幫您外送喔!訂購專線：05-228-5678</p>
+            </div>
+            <div data-role="collapsible">
+                <h3>高雄明華</h3>
+                <img src="../img/sale/sale04_480.jpg" style="width:100%;height:auto;">
+                <p><span>［金炙紅寶石］</span><br>特選佛羅里達洲紅葡萄柚,沖繩經炙燒後金光閃閃的焦糖,酸甜好滋味💞！</p>
+            </div>
+            <div data-role="collapsible">
+                <h3>高雄一心</h3>
+                <img src="../img/sale/sale06_480.jpg" style="width:100%;height:auto;">
+                <p><span>✨小倉紅豆抹茶麻吉✨</span><br>日本小倉紅豆配上特選宇治抹茶🍵～綿密細緻加上手作麻糬～Q彈口感抹茶香氣充斥於口中久久不散,回無窮啊💕</p>
+            </div>      
+        </div>  <!--collapsibleset end-->
+      </div><!--main end-->
+      <div data-role="footer">
+        <h1>COPYRIGHT© 2016 FUN TOWER All RIGHTS RESERVED<br>
+        <span>(此為練習網站，圖片為fun tower及網路搜尋,如有侵犯請告知)</span></h1>
+</div><!--footerr end-->    
+    </div>
+<!--=======================page3========================-->
+<div data-role="page" data-theme="a" id="page3">
+  <div data-role="header">
+    <h1>
+       <img src="../img/logo/logo_img.png">
+       <img src="../img/logo/logo_pink.png">
+    </h1>
+    <div data-role="navbar">
+        <ul>
+          <li><a href="#page1" data-transition="slide" data-direction="reverse">商品選擇</a></li>
+          <li><a href="#page2" data-transition="slide" data-direction="reverse">活動資訊</a></li>
+          <li><a href="#page3">門市據點</a></li>
+          <li><a href="#page4" data-transition="slide">聯絡我們</a></li>
+        </ul>
+    </div>
+  </div><!--header end-->
+  <div data-role="main" class="ui-content">
+    <div id="map-page" data-url="map-page">
+        <h1>台北師大</h1>
+        <div role="main" class="ui-content" id="map-canvas">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d990.2349501219205!2d121.52751639101697!3d25.021347159072292!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc5921ec7ded77133!2zRnVuIFRvd2VyIOWPsOWMl-W4q-Wkp-W6lw!5e0!3m2!1szh-TW!2stw!4v1477844117592" width="100%" height="315" frameborder="0" style="border:5px solid #fff;" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="map-page" data-url="map-page">
+        <h1>嘉義東區</h1>
+        <div role="main" class="ui-content" id="map-canvas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.611740551611!2d120.44967331425948!3d23.474465505179626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e9430a0633d17%3A0x67f3124466166b85!2zRnVuIFRvd2VyLiDml6XlvI_lj6_pupfppIU!5e0!3m2!1szh-TW!2stw!4v1477844291612" width="100%" height="315" frameborder="0" style="border:5px solid #fff;" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="map-page" data-url="map-page">
+        <h1>台南國華</h1>
+        <div role="main" class="ui-content" id="map-canvas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.817554865134!2d120.1954987142498!3d22.99373552317679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7664edc7057f%3A0x3c35fcdc1157e650!2zRlVOIFRvd2VyIOaXpeW8j-WPr-m6l-mkhSjlnIvoj6_lupcp!5e0!3m2!1szh-TW!2stw!4v1477844345589" width="100%" height="315" frameborder="0" style="border:5px solid #fff;" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="map-page" data-url="map-page">
+        <h1>高雄明華</h1>
+        <div role="main" class="ui-content" id="map-canvas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.7516567554158!2d120.3047902142434!3d22.663046135357604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e050362fe00bd%3A0xfc96bc10a8efdd7a!2zRlVOIFRPV0VS5pel5byP5Y-v6bqX6aSF!5e0!3m2!1szh-TW!2stw!4v1477844402687" width="100%" height="315" frameborder="0" style="border:5px solid #fff;" allowfullscreen></iframe>
+        </div>
+    </div>    
+    <div id="map-page" data-url="map-page">
+        <h1>高雄一心</h1>
+        <div role="main" class="ui-content" id="map-canvas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.0839534239262!2d120.30405531424258!3d22.613339937174516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e037d0a351969%3A0xda60d82c591d1d64!2zRnVuIFRvd2VyIOaXpeW8j-WPr-m6l-mkhSDkuIDlv4Plupc!5e0!3m2!1szh-TW!2stw!4v1477844447087" width="100%" height="315" frameborder="0" style="border:5px solid #fff;" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div><!--main end-->
+  <div data-role="footer">
+    <h1>COPYRIGHT© 2016 FUN TOWER All RIGHTS RESERVED<br>
+    <span>(此為練習網站，圖片為fun tower及網路搜尋,如有侵犯請告知)</span></h1>
+  </div><!--footer end-->
+</div>
+<!--============================page4=========================-->
+<div data-role="page" data-theme="a" id="page4">
+  <div data-role="header">
+   <h1>
+       <img src="../img/logo/logo_img.png">
+       <img src="../img/logo/logo_pink.png">
+   </h1>
+    <div data-role="navbar">
+        <ul>
+          <li><a href="#page1" data-transition="slide" data-direction="reverse">商品選擇</a></li>
+          <li><a href="#page2" data-transition="slide" data-direction="reverse">活動資訊</a></li>
+          <li><a href="#page3" data-transition="slide" data-direction="reverse">門市據點</a></li>
+          <li><a href="#page4" >聯絡我們</a></li>
+        </ul>
+    </div>
+  </div><!--header end-->
+  <div data-role="main" class="ui-content">
+    <form>
+      <p>姓名：</p>
+      <input type="text" placeholder="請填入真實姓名" required>
+      <p>EMAIL:</p>
+      <input type="email" name="email" id="email" placeholder="請輸入完整EMail格式" required>
+      <p style="width:30px;">男</p><label id="sex1" style="width:20px;height:20px;"><input type="radio" name="sex"></label>
+      <p>女</p><label id="sex2" style="width:20px;height:20px;"><input type="radio" name="sex"></label>
+      詢問項目：<select name="question" id="question">
+                  <option value="">請選擇需要詢問的項目...</option>
+                  <option value="加盟詢問">加盟詢問</option>
+                  <option value="商品建議">商品建議</option>
+                  <option value="顧客意見">顧客意見</option>
+                  <option value="其他">其他</option>
+              </select>              
+      留言內容：<textarea rows="10"></textarea>
+    </form>
+  </div><!--main end-->
+  <div data-role="footer">
+    <h1>COPYRIGHT© 2016 FUN TOWER All RIGHTS RESERVED<br>
+    <span>(此為練習網站，圖片為fun tower及網路搜尋,如有侵犯請告知)</span></h1>
+  </div><!--footer end-->
+</div>
+
+<script>
+$(document).ready(function() {
+    $(document).foundation();
+})
+</script>
+</body>
+</html>

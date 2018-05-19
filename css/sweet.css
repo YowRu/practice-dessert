@@ -1,0 +1,19 @@
+#wrapper {background:url(../img/bg/br.png);display: flex;justify-content:center;flex-wrap: wrap;padding:40px 20px;}
+#wrapper a{width: 20%;margin:0.5%;}
+#wrapper a img{width:95%;}
+#main>a {display: inline-block;background:url(../img/bg/br.png);width: 100%;padding:10px 0 60px;text-align:center;color: #fff;font-size:1.4rem;}
+@media(max-width:800px){
+    #wrapper a{width: 24%;}
+}
+@media(max-width:650px){
+    #wrapper a{width:32%;}
+}
+@media(max-width:555px){
+    #wrapper a{width:45%;}
+}
+@media(max-width:414px){
+    #wrapper a{width:90%;}
+}
+@media(max-width:320px){
+    #wrapper a{width:98%;}
+}
