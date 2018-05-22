@@ -31,10 +31,10 @@
         #main {margin-bottom: 0;}
     }
 @media(max-width:500px){
-    #fir,#second,#third{min-height:500px;}
-    #fir{background: url(../img/sale/1.1.png) 50% 70px no-repeat fixed;background-size:contain;}
-    #second{background: url(../img/sale/2.png) 50% 70px no-repeat fixed;background-size:contain;}
-    #third {background: url(../img/sale/3.png) 50% 70px no-repeat fixed;background-size:contain;}
+    #fir,#second,#third{min-height:300px;}
+    #fir{background: url(../img/sale/1.1.png) 50% 70px no-repeat;background-size:contain;}
+    #second{background: url(../img/sale/2.png) 50% 70px no-repeat;background-size:contain;}
+    #third {background: url(../img/sale/3.png) 50% 70px no-repeat;background-size:contain;}
 }
 /*
 @media(max-width:414px){
