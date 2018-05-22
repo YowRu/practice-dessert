@@ -118,7 +118,7 @@ footer{max-width:1280px;width:100%;height:50px;margin:0 auto;padding-top:10px;li
     #navwrapper ul{display:none;}
     header .wp>ul{position:absolute;width:100%;top:70px;background-color: #362d2d;z-index:2;}
     header .wp>ul li{clear:both;border-right:none;}
-    header .wp>ul li a{display:block;width:100%;height:90px;line-height:90px;color:#fff;font-weight: 600;border-bottom:1px dotted #fff;text-align:center;font-size:1.2rem;}
+    header .wp>ul li a{display:block;width:100%;height:70px;line-height:70px;color:#fff;font-weight:600;border-bottom:1px dotted #fff;text-align:center;font-size:1.1rem;}
     header .wp>ul li:last-child a{border-bottom: none;}
     header .wp>ul li:hover{background-color:#fab8b8;}
     header .wp>ul li:hover a{color:#fff;border:0;}
