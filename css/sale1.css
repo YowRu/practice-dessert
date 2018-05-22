@@ -1,10 +1,7 @@
  #fir{
 	background:url(../img/sale/1.1.png) 50% 0 no-repeat fixed;
-       background-size: contain;
-	color: white;
-	height: 1030px;
-	margin: 0 auto;
-	padding: 0;
+    background-size: contain;color: white;
+	height: 1030px;margin: 0 auto;padding: 0;
 }
 
 #second{
@@ -27,13 +24,23 @@
     }
      @media(max-width:800px){
         #fir,#second,#third{height:606px;}
+         #fir{background: url(../img/sale/1.1.png) 50% 0 no-repeat fixed;background-size: cover;}
+    #second{background: url(../img/sale/2.png) 50% 0 no-repeat fixed;background-size: cover;}
+    #third {background: url(../img/sale/3.png) 50% 0 no-repeat fixed;background-size: cover;}
     }
     @media(max-width:768px){
         #fir,#second,#third{height:1000px;}
     }
 @media(max-width:650px){
         #fir,#second,#third{height:900px;}
+        #main {margin-bottom: 0;}
     }
+@media(max-width:500px){
+    
+   #fir{background: url(../img/sale/1.1.png) 50% 70px no-repeat fixed;background-size: cover;}
+    #second{background: url(../img/sale/2.png) 50% 70px no-repeat fixed;background-size: cover;}
+    #third {background: url(../img/sale/3.png) 50% 70px no-repeat fixed;background-size: cover;}
+}
 @media(max-width:414px){
         #fir,#second,#third{height:740px;}
     }
@@ -42,4 +49,7 @@
     }
 @media(max-width:320px){
         #fir,#second,#third{height:570px;}
+    #fir{background: url(../img/sale/1.1.png) 50% 0px no-repeat fixed;background-size: cover;}
+    #second{background: url(../img/sale/2.png) 50% 20px no-repeat fixed;background-size: cover;}
+    #third {background: url(../img/sale/3.png) 50% 10px no-repeat fixed;background-size: cover;}
     }
