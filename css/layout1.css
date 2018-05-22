@@ -194,7 +194,7 @@ footer{max-width:1280px;width:100%;height:50px;margin:0 auto;padding-top:10px;li
 }
 @media(max-width:414px){
     #logo{font-size:1.6rem;}
-    #navwrapper nav{width:25px;height:30px;}
+    #navwrapper nav{width:25px;height:30px;top:15px;right:15px;}
     .section h1{display: none;}
     .row2 h2{width: 90%;font-size:1.6rem;}
     .section p span{line-height:3rem;}
