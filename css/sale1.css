@@ -31,7 +31,7 @@
         #main {margin-bottom: 0;}
     }
 @media(max-width:500px){
-    #fir,#second,#third{width: 100%;min-height:500px;}
+    #fir,#second,#third{min-height:500px;}
     #fir{background: url(../img/sale/1.1.png) 50% 70px no-repeat fixed;background-size:cover;}
     #second{background: url(../img/sale/2.png) 50% 70px no-repeat fixed;background-size:cover;}
     #third {background: url(../img/sale/3.png) 50% 70px no-repeat fixed;background-size:cover;}
