@@ -26,7 +26,7 @@
         #fir,#second,#third{height:774px;background-size: contain;}
     }
      @media(max-width:800px){
-        #fir,#second,#third{height:606px;background-size: cover;}
+        #fir,#second,#third{height:606px;}
     }
     @media(max-width:768px){
         #fir,#second,#third{height:1000px;}
